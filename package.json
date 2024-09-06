@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "netlify",
-=======
-  "name": "weatherapp-with-react",
->>>>>>> 7ddbcfb3ae28c98db954b822d64cce4a20350488
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,21 +7,12 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-<<<<<<< HEAD
     "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-loader-spinner": "^6.1.6"
-=======
-    "preview": "vite preview",
-    "netlify": "vite build"
-  },
-  "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
->>>>>>> 7ddbcfb3ae28c98db954b822d64cce4a20350488
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
