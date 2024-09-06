@@ -81,7 +81,7 @@ export default async (req, context) => {
   const city = url.searchParams.get('city') || 'World';
 
   // This will extract the city name from the URL
-  const API_KEY = '0e6f4673b9f8af75f397f23f0e23bf4c';
+  const API_KEY = 'your api key of weather api';
 
   const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${API_KEY}`);
   const data = await response.json();
