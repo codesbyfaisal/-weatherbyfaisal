@@ -1,0 +1,40 @@
+functionsDirectory = "C:\\Users\\Faisal\\Desktop\\netlify\\.netlify\\functions"
+functionsDirectoryOrigin = "config"
+headers = []
+redirects = []
+
+[dev]
+command = "vite"
+port = 3000.0
+publish = "dist"
+
+[functions]
+
+[functions."*"]
+
+[[plugins]]
+origin = "ui"
+package = "@netlify/plugin-lighthouse"
+
+[plugins.inputs]
+
+[build]
+publish = "C:\\Users\\Faisal\\Desktop\\netlify\\dist"
+publishOrigin = "config"
+commandOrigin = "config"
+command = "npm run build"
+functions = "C:\\Users\\Faisal\\Desktop\\netlify\\.netlify\\functions"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]

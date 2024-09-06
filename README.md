@@ -152,5 +152,8 @@ This will deploy your app to production, making it public.
 ```bash
 npx netlify deploy --prod
 ```
+
+## Note
+When uploading to GitHub, make sure not to include the `.netlify` directory. I only uploaded it for the tutorial purpose. 
 ----------------------------------------------
 🚀 Happy Coding!

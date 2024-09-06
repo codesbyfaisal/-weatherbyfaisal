@@ -1,0 +1,20 @@
+{
+	"siteId": "e3723489-987a-4bd0-b27a-b65b93b3ce01",
+	"geolocation": {
+		"data": {
+			"city": "Peshawar",
+			"country": {
+				"code": "PK",
+				"name": "Pakistan"
+			},
+			"subdivision": {
+				"code": "KP",
+				"name": "Khyber Pakhtunkhwa"
+			},
+			"timezone": "Asia/Karachi",
+			"latitude": 34.0076,
+			"longitude": 71.5295
+		},
+		"timestamp": 1725552071008
+	}
+}
